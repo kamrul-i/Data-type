@@ -29,6 +29,17 @@ public class Products {
 		System.out.println("category:    "+category);
 		//============================================
 		
+		
+		System.out.println();
+		
+		//============================================
+		System.out.printf("id:          %d\n", id);
+		System.out.printf("title:       %s\n", title);
+		System.out.printf("price:       %s\n",price);
+		System.out.printf("description: %s\n", description);
+		System.out.printf("category:    %s\n", category);
+		//============================================
+		
 
 	}
 
