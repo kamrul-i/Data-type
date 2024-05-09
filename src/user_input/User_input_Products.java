@@ -15,7 +15,8 @@ public class User_input_Products {
 			num = input.nextInt();
 			
 			double result = (double) phonePrice / num;
-			System.out.print("Monthly installments Amount : " +result+ " euros.");
+			System.out.printf("Monthly installments Amount : %.2f" , result);
+			System.out.print(" euros.");
 		}
 		
 	}
