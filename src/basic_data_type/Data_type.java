@@ -19,12 +19,16 @@ public class Data_type {
  
 		//এখানে একসাথে সকল variable ধরে আবার নিচে একসাথে print করে দেখানো হয়েছে।।
 		int i = 125;
-		float f = 787.8785f;  //float এর মান যা ধরবেন, তার সাথে f না দিলে হবে না ।।
-		double d = 787.73;
+		float f = 787.878545584f;  //float এর মান যা ধরবেন, তার সাথে f না দিলে হবে না ।।
+		double d = 787.73498654;   
              
 		System.out.println("i = "+i);
-		System.out.println("f = "+f);
-		System.out.println("d = "+d);
+		System.out.printf("f = %.2f", f);
+		System.out.printf("\n");
+		System.out.printf("d = %.1f", d);
+		
+		//দশমিকের পরে result বেশি থাকলে, দশমিকের পরে কত ঘর show করবে তা select করে দেওয়া হয়েছে, 
+		//তবে তার জন্য "printf" use করতে হবে।।
       
 	}
 
